@@ -1,0 +1,103 @@
+*,
+*::before,
+*::after {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0
+}
+
+header {
+    background-color: white;
+    position: fixed;
+    right: 0%;
+    left: 0%;
+    padding: 2rem;
+    text-decoration: none;
+    margin: auto;
+    box-shadow: 2px 2px 2px 1px #A0A0A0;
+}
+
+nav h1 {
+    color: black;
+    font-size: 25px;
+    font-weight: normal;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+nav img{
+    width: 30px;
+    bottom: 100%;
+    margin-top: 0%;
+}
+
+nav ul {
+    list-style-type: none;
+    position: fixed;
+    top: 1rem;
+    left: 2rem;
+    color: black;
+    text-decoration: none; 
+    margin-top: 1rem;
+}
+
+nav li {
+    display: inline;
+    margin-left: 0.5rem;
+    font-size: 15px;
+    text-decoration: none;
+    text-align: center;
+}
+nav form {
+    text-align: right;
+    margin: auto;
+    position: fixed;
+    top: 3rem;
+    right: 8rem;
+}
+
+nav p {
+    font-size: 15px;
+    text-align: right;
+    position: fixed;
+    top: 3rem;
+    right: 1rem;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: black;
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: red;
+    text-decoration: none;
+  }
+  
+  /* selected link */
+  a:active {
+    color: yellow;
+    text-decoration: none;
+  } 
+
+
+
+
